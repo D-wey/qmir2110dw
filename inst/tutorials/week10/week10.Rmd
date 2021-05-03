@@ -15,6 +15,7 @@ library(texreg)
 data(df_opposition) 
 ```
 
+
 ## Warm-Up
 
 Before we get our hands dirty with statistical inference in regression analysis, let's go over some of the key concepts discussed in this week's class.
@@ -78,21 +79,6 @@ question("The density of the standard normal distribution has a very important c
 
 ```
 
-
-**What is a key insight from the central limit theorem?**
-
-```{r centrallimit, echo = FALSE}
-question("According to the central limit theorem, if we draw a large number of independent samples and put the resulting means in a distribution, we will get...",
-  answer("a normal distribution.", correct = T),
-  answer("a binomial distribution."),
-  answer("the mean of our variable."),
-  answer("none of the answer options is correct."),
-  random_answer_order = TRUE,
-  allow_retry = T,
-  incorrect = "Hint: Have a look at the refresher material on probability theory."
-)
-
-```
 
 ### Confidence intervals, standard errors and hypothesis tests
 
@@ -294,7 +280,6 @@ question_text("Enter the value of the upper bound of the 95% prediction interval
   allow_retry = T, incorrect = "Hint: Revisit the code from the lab-session."
 )
 ```
-
 
 
 ## Submit
